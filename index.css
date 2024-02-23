@@ -1,0 +1,207 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100%;
+  padding: 0 30px;
+}
+header{
+  background: fixed;
+  background-color:white;
+  display: flex;
+  position: fixed;
+  width:100%;
+  justify-content:space-around;
+  padding: 10px 0;
+}
+
+header ul{
+  list-style: none;
+  width: 100%;
+  text-align: right;
+  padding-right:50px;
+  word-spacing: 30px;
+}
+header ul li{
+  display: inline-block;
+  margin: 10px 20 px;
+}
+header ul li a{
+  color:blueviolet;
+  text-decoration: none;
+}
+
+.information{
+  display:inline;
+  justify-content:space-between;
+  margin: 10px; 
+  padding: 10px;
+  background-color: white;
+  text-decoration: none;
+  color:black;
+  text-align:left;
+  width:10%;
+}
+.Image{
+  background: url(./images/ar.jpg);
+   width: 100%;
+   height: 700px;
+   padding: 20% 0;
+   margin: 0%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 30px;
+   text-align: center!important;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+   text-decoration: none;
+   font-size: 40px;
+   font-family:'Times New Roman', Times, serif;
+   display: inline-block;
+
+}
+
+.inside{
+  background: grey;
+  align-items: center;
+}
+.projects{
+  padding: 0.01em 16px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding-top: 20px;
+  
+
+}
+.projects::after,.projects::before{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+.cardcontainer{
+  width:100%;
+  width: 23%;
+  float: left;
+  margin-bottom: 16px;
+  gap: 20%;
+}
+.cardcontainer1{
+position: relative;
+
+}
+.cardcontainer2{
+position: absolute;
+left: 0;
+top: 0;
+color: #fff;
+background-color: #000;
+padding: 8px 16px;
+}
+
+.near{
+  text-align:left!important;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+   text-decoration: none;
+   font-size: 20px;
+   font-family:'Times New Roman', Times, serif;
+   display: inline-block;
+}
+
+
+.projects .one img{
+display: flex;
+gap: 2rem;
+width: 20%;
+}
+
+.nn{
+  display:flex;
+  flex-direction: row;
+  margin:20px 0;
+}
+
+.about{
+padding: 10% 10%;
+  
+}
+.foot{
+  color: white;
+  background-color: black;
+  text-align: center;
+  
+}
+#id{
+  padding: 10px;
+}
+.form{
+  padding:10px;
+  align-items: center;
+  justify-content:space-around;
+}
+.e{
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  color: #000;
+  background-color: #f1f1f1;
+  display: block;
+  width: 90%;
+
+}
+
+.cont{
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.cont::after,.cont::before{
+  content: "";
+  display:table;
+  clear:both;
+  position:relative;
+}
+.f{
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  border: 1px solid #ccc;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.ff{
+  margin-top: 16px;
+  margin-bottom: 16px;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
